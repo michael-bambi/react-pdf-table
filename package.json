@@ -7,7 +7,6 @@
     "generate-barrels": "barrelsby -d src --delete -e TableRow.tsx",
     "build": "pnpm run generate-barrels && tsc",
     "recompile": "tsc",
-    "prepublish": "pnpm build",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "build-doco": "typedoc --plugin typedoc-plugin-markdown --out docs/typedoc src"
